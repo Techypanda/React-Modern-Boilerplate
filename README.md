@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# React Modern Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+When first getting started with a new react app you will need to install all of the annoying dependencies and make the 'boilerplate' react-dom setup.
+This boilerplate project will get you up and running with modern dependencies and typescript so you can focus on the code.
 
-## Available Scripts
+## What Modern Dependencies Is Included?
+- [https://reactrouter.com/web/guides/quick-start](react-router-dom): Allows routing in a SPA context aswell as a NonSPA Context
+- [https://styled-components.com/docs/basics](styled-components): Allows you to do CSS in components to reduce coupling.
+- [https://www.typescriptlang.org/](typescript): All modern reactapps should force typescript as it reduces logic errors.
+- [https://react-query.tanstack.com/](react-query): Allows state management in a nice easy format, also gives you nice dev tools in a non production context.
+- [https://www.npmjs.com/package/node-sass](node-sass): Allows you to write css in a SCSS file, which will compile down to a efficient CSS file in production.
+- [https://github.com/axios/axios](axios): Modern javascript HTTP requests and GraphQL.
 
-In the project directory, you can run:
+## Dev, Build, Test
+### Run In Development
+```sh
+yarn start OR npm run start
+```
+### Build For Production
+```sh
+yarn build or npm run build
+```
+### Test
+```sh
+yarn test or npm run test
+```
 
-### `yarn start`
+## What Is React?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you are just getting started with react please follow the official react docs, don't try going straight into a boilerplate setup like this or you will be overwhelmed.
+https://reactjs.org/docs/getting-started.html
