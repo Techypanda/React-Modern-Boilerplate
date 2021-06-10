@@ -4,12 +4,12 @@ When first getting started with a new react app you will need to install all of 
 This boilerplate project will get you up and running with modern dependencies and typescript so you can focus on the code.
 
 ## What Modern Dependencies Is Included?
-- [https://reactrouter.com/web/guides/quick-start](react-router-dom): Allows routing in a SPA context aswell as a NonSPA Context
-- [https://styled-components.com/docs/basics](styled-components): Allows you to do CSS in components to reduce coupling.
-- [https://www.typescriptlang.org/](typescript): All modern reactapps should force typescript as it reduces logic errors.
-- [https://react-query.tanstack.com/](react-query): Allows state management in a nice easy format, also gives you nice dev tools in a non production context.
-- [https://www.npmjs.com/package/node-sass](node-sass): Allows you to write css in a SCSS file, which will compile down to a efficient CSS file in production.
-- [https://github.com/axios/axios](axios): Modern javascript HTTP requests and GraphQL.
+- [React Router DOM](https://reactrouter.com/web/guides/quick-start): Allows routing in a SPA context aswell as a NonSPA Context
+- [Styled Components](https://styled-components.com/docs/basics): Allows you to do CSS in components to reduce coupling.
+- [Typescript](https://www.typescriptlang.org/): All modern reactapps should force typescript as it reduces logic errors.
+- [React Query](https://react-query.tanstack.com/): Allows state management in a nice easy format, also gives you nice dev tools in a non production context.
+- [Node SASS](https://www.npmjs.com/package/node-sass): Allows you to write css in a SCSS file, which will compile down to a efficient CSS file in production.
+- [Axios](https://github.com/axios/axios): Modern javascript HTTP requests and GraphQL.
 
 ## Dev, Build, Test
 ### Run In Development
